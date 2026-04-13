@@ -1,1 +1,1 @@
-# afl_cio_scoreboards
+# AFL-CIO Legislative Scoreboards
