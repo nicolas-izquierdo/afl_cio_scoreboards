@@ -10,7 +10,7 @@
 
 This repository provides AFL-CIO **legislative scoreboards** of the U.S. House between 1980 and 2025. In particular, it provides (1) data on AFL-CIO–selected bills and (2) R code to score legislators’ behavior on those votes.
 
-> **Status:** Current coverage includes the U.S. House (1980–2025). Extension to additional years and the Senate is ongoing.
+> **Status:** Extension to additional years and the U.S. Senate is ongoing.
 
 ---
 
