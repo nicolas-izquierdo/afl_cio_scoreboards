@@ -9,7 +9,7 @@
 
 ---
 
-This repository provides AFL-CIO **legislative scoreboards** of lawmaking in the U.S. House between 1980 and 2025. In particular, it provides (1) data on the bills highlighted by the AFL-CIO upon which legislators were assessed as well as (2) R code to score U.S. legislators' behavior on these bills.
+This repository provides AFL-CIO **legislative scoreboards** of the U.S. House between 1980 and 2025. In particular, it provides (1) data on AFL-CIO–selected bills and (2) R code to score legislators’ behavior on those votes.
 
 > **Status:** Current coverage includes the U.S. House (1980–2025). Extension to additional years and the Senate is ongoing.
 
@@ -19,11 +19,9 @@ This repository provides AFL-CIO **legislative scoreboards** of lawmaking in the
 
 The dataset is constructed in three steps:
 
-1. AFL-CIO legislative scorecards are collected and transcribed
-2. Each vote is matched to its corresponding VoteView roll call using official Clerk of the House records
-3. Roll call metadata (tallies, party breakdowns, bill information) is retrieved from VoteView and verified programmatically across 14 fields per row
-
-All 712 rows have been verified against VoteView roll call data. Verification covers: bill identity, vote date, yea/nay tallies, vote question, vote result, Clerk roll number, congress, and VoteView URL.
+1. AFL-CIO legislative scorecards are collected and transcribed using Claude Code
+2. Each vote is matched to its corresponding VoteView roll call 
+3. Roll call metadata is retrieved from VoteView 
 
 ---
 
@@ -35,24 +33,8 @@ Primary materials are drawn from:
   👉 [Wayback Machine](https://web.archive.org/))
 - 📰 Historical issues of *AFL-CIO News* available at the  
   👉 [Internet Archive AFL-CIO News collection](https://archive.org/search?query=creator%3A%22AFL-CIO%22+%22news%22)
-- 🗳️ [Clerk of the House](https://clerk.house.gov) — official roll call records and tallies
-- 📊 [VoteView](https://voteview.com) — roll call metadata, party breakdowns, ideological scores
-
-PDF scans of source scorecards are included whenever available.
-
----
-
-## Repository Structure
-
-```
-HOUSE/
-├── 1980/aflcio_house_votes_1980.xlsx
-├── 1981/aflcio_house_votes_1981.xlsx
-│   ...
-└── 2025/aflcio_house_votes_2025.xlsx
-```
-
-46 Excel files, one per scorecard year, covering the 96th through 119th Congresses (H096–H119).
+- 🗳️ [Clerk of the House](https://clerk.house.gov) 
+- 📊 [VoteView](https://voteview.com) 
 
 ---
 
@@ -71,7 +53,7 @@ HOUSE/
 
 ## Data Structure
 
-The dataset provides vote-level information linking AFL-CIO scorecards to official House roll calls and VoteView records.
+The dataset provides vote-level information linking AFL-CIO scorecards to VoteView records.
 
 | Variable | Type | Description |
 |---|---|---|
