@@ -15,15 +15,6 @@ This repository provides AFL-CIO legislative assessments of lawmaking in the U.S
 
 ---
 
-## Overview
-
-- **Unit of analysis:** Roll call vote  
-- **Core sources:** AFL-CIO scorecards + Voteview  
-- **Output:** Clean vote-level dataset + legislator scores  
-- **Applications:** Political economy, legislative behavior, labor politics  
-
----
-
 ## Data construction
 
 The dataset is constructed in three steps:
