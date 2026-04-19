@@ -78,8 +78,11 @@ The dataset provides vote-level information linking AFL-CIO scorecards to offici
 
 **Notes.**  
 (i) Variables `aflcio_*` are transcribed from AFL-CIO scorecards.  
+
 (ii) Vote totals are based on official Clerk counts and may include non-voting delegates, generating small discrepancies relative to Voteview aggregates.  
+
 (iii) Party vote counts come from Voteview (`party_vote_counts`; codes: 100 = Democrat, 200 = Republican, others = Independent).  
+
 (iv) AFL-CIO positions are encoded as either *Y=Right; N=Wrong* or *Y=Wrong; N=Right*.
 
 **Key identification distinction.**  
