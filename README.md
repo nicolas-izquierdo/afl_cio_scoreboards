@@ -75,25 +75,25 @@ The dataset provides vote-level information linking AFL-CIO scorecards to offici
 
 | Variable | Type | Description |
 |---|---|---|
-| `congress` | integer | U.S. Congress number (e.g. `96` = 96th Congress, 1979–1981). Formula: `floor((year − 1789) / 2) + 1` |
+| `congress` | integer | U.S. Congress number (e.g. `96` = 96th Congress, 1979–1981). |
 | `year` | integer | AFL-CIO scorecard year. Note: some votes in a scorecard year occurred in the prior calendar year |
 | `aflcio_num` | integer | AFL-CIO sequential vote number within the annual scorecard |
-| `rollcall` | integer | **Official Clerk of the House roll call number.** Resets to 1 each calendar year. Not the same as the VoteView rollnumber |
+| `rollcall` | integer | **Official Clerk of the House roll call number.** Resets to 1 each calendar year. Not the same as the VoteView identifier |
 | `date` | date | Date the vote was held on the House floor |
-| `chamber` | string | Chamber (`"House"` throughout) |
+| `chamber` | string | Chamber (`"House"` or `"Senate"`) |
 | `bill_type` | string | Official bill type: `H.R.`, `H.J.Res.`, `H.Con.Res.`, `H.Res.`, `S.`, `S.J.Res.`, `S.Con.Res.` |
 | `bill_number` | string | Numeric part of the bill number (e.g. `800` for H.R. 800) |
 | `bill_id` | string | Concatenation of `bill_type` + `bill_number` (e.g. `H.R.800`) |
 | `bill_title` | string | AFL-CIO's descriptive title for this specific vote |
 | `question` | string | Official Clerk vote question (e.g. `"On Passage"`, `"On Agreeing to the Amendment"`) |
 | `amendment_author` | string | Amendment sponsor, if applicable (e.g. `"King of Iowa Amendment"`) |
-| `vote_type` | string | Vote recording method (nearly always `"RECORDED VOTE"`) |
+| `vote_type` | string | Vote recording method |
 | `result` | string | Vote outcome: `"Passed"`, `"Failed"`, `"Agreed to"`, `"Passed — Veto Overridden"`, `"Failed — Veto Sustained"` |
-| `result_tally` | string | Official result string from VoteView (e.g. `"220-208 (Passed)"`). Present for some years only |
+| `result_tally` | string | Official result string from VoteView (e.g. `"220-208 (Passed)"`). |
 | `vote_desc` | string | VoteView short description of the vote. Sparse for older congresses |
 | `subject_matter` | string | VoteView subject matter classification (e.g. `"Social Welfare / Domestic Social Policy"`). Sparse |
-| `yea_total` | integer | Total Yea votes (Clerk tally — see note on delegates below) |
-| `nay_total` | integer | Total Nay votes (Clerk tally) |
+| `yea_total` | integer | Total Yea votes |
+| `nay_total` | integer | Total Nay votes |
 | `nv_total` | integer | Total Not Voting / abstentions |
 | `yea_R` / `nay_R` / `nv_R` | integer | Republican Yea / Nay / Not Voting |
 | `yea_D` / `nay_D` / `nv_D` | integer | Democratic Yea / Nay / Not Voting |
@@ -101,8 +101,8 @@ The dataset provides vote-level information linking AFL-CIO scorecards to offici
 | `aflcio_position` | string | AFL-CIO official position on the vote: `Y` or `N`. Interpretation depends on `aflcio_label` |
 | `aflcio_label` | string | Decodes the position: `"Y=Right; N=Wrong"` (Yea = pro-labor) or `"Y=Wrong; N=Right"` (Nay = pro-labor) |
 | `aflcio_topic` | string | Short topic label as used in the AFL-CIO scorecard |
-| `aflcio_description` | string | Full paragraph description transcribed from the AFL-CIO annual scorecard PDF, including policy context, vote outcome, and position rationale |
-| `url` | string | Canonical VoteView URL: `https://voteview.com/rollcall/RH[congress 3-digit][rollnumber 4-digit]`. Verified correct for all 712 rows |
+| `aflcio_description` | string | Full paragraph description transcribed from the AFL-CIO annual scorecard PDF |
+| `url` | string | Canonical VoteView URL: `https://voteview.com/rollcall/RH[congress 3-digit][rollnumber 4-digit]` |
 
 <sub>
 
