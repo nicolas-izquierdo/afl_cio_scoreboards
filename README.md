@@ -20,7 +20,7 @@ The dataset is constructed in three steps:
 
 1. AFL-CIO legislative scorecards are collected and transcribed using Claude Code
 2. Each vote is matched to its corresponding VoteView roll call 
-3. Roll call metadata is retrieved from VoteView 
+3. Roll call metadata are retrieved from VoteView 
 
 ---
 
