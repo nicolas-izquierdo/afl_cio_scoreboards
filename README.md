@@ -74,9 +74,6 @@ The dataset provides vote-level information linking AFL-CIO scorecards to VoteVi
 | `yea_total` | integer | Total Yea votes |
 | `nay_total` | integer | Total Nay votes |
 | `nv_total` | integer | Total Not Voting / abstentions |
-| `yea_R` / `nay_R` / `nv_R` | integer | Republican Yea / Nay / Not Voting |
-| `yea_D` / `nay_D` / `nv_D` | integer | Democratic Yea / Nay / Not Voting |
-| `yea_I` / `nay_I` / `nv_I` | integer | Independent / third-party Yea / Nay / Not Voting |
 | `aflcio_position` | string | AFL-CIO official position on the vote: `Y` or `N`. Interpretation depends on `aflcio_label` |
 | `aflcio_label` | string | Decodes the position: `"Y=Right; N=Wrong"` (Yea = pro-labor) or `"Y=Wrong; N=Right"` (Nay = pro-labor) |
 | `aflcio_topic` | string | Short topic label as used in the AFL-CIO scorecard |
