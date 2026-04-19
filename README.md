@@ -26,7 +26,7 @@ The dataset is constructed in three steps:
 
 ## Sources
 
-Primary materials are drawn from:
+Relevant data are drawn from:
 
 - 📄 AFL-CIO publications (current and archived versions via the [Wayback Machine](https://web.archive.org/))
 - 📰 Historical issues of *AFL-CIO News* available at the [Internet Archive AFL-CIO News collection](https://archive.org/search?query=creator%3A%22AFL-CIO%22+%22news%22)
