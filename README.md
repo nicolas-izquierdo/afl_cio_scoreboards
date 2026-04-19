@@ -4,39 +4,48 @@
   <em>U.S. House legislative evaluations, 1980–2025</em>
 </p>
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Coverage-1980--2025-blue">
+  <img src="https://img.shields.io/badge/Chamber-House-lightgrey">
+  <img src="https://img.shields.io/badge/Status-Active-success">
+  <img src="https://img.shields.io/badge/Use-Academic%20%26%20Non--Commercial-orange">
+</p>
+
 ---
 
-This repository provides AFL-CIO legislative assessments of lawmaking in the U.S. House between 1980 and 2025. It includes information on the bills selected by the AFL-CIO for evaluation, together with code to score legislators’ behavior based on those votes.
+This repository provides AFL-CIO legislative assessments of lawmaking in the U.S. House between 1980 and 2025. It combines historical AFL-CIO scorecards with roll call data to evaluate legislators’ behavior on key labor-related votes.
 
-> **Status:** Coverage currently spans 1980–2025 (House). Work is ongoing to extend the dataset to additional years and to the U.S. Senate.
+> **Status:** Current coverage includes the U.S. House (1980–2025). Extension to additional years and the Senate is ongoing.
 
 ---
 
 ## Overview
 
 - **Unit of analysis:** Roll call vote  
-- **Sources:** AFL-CIO scorecards + Voteview  
-- **Output:** Clean vote-level dataset + legislator scoring  
-- **Use cases:** Political economy, legislative behavior, labor politics  
+- **Core sources:** AFL-CIO scorecards + Voteview  
+- **Output:** Clean vote-level dataset + legislator scores  
+- **Applications:** Political economy, legislative behavior, labor politics  
 
 ---
 
 ## Data construction
 
-The dataset was built in three steps:
+The dataset is constructed in three steps:
 
-1. AFL-CIO legislative scoreboards were collected and transcribed  
-2. Each bill was matched to its corresponding Voteview roll call  
-3. Legislators were evaluated based on AFL-CIO positions  
+1. AFL-CIO legislative scorecards are collected and transcribed  
+2. Each vote is matched to its corresponding Voteview roll call  
+3. Legislators are scored based on AFL-CIO positions  
 
 ---
 
 ## Sources
 
-The underlying documents come from:
+Primary materials are drawn from:
 
-- AFL-CIO website (including archived versions via Wayback Machine)  
-- *AFL-CIO News* periodicals (Internet Archive)
+- 📄 AFL-CIO publications (current and archived versions via the  
+  👉 [Wayback Machine](https://web.archive.org/)  
+- 📰 Historical issues of *AFL-CIO News* available at the  
+  👉 [Internet Archive AFL-CIO News collection](https://archive.org/search?query=creator%3A%22AFL-CIO%22+%22news%22)
 
 PDF scans are included whenever available.
 
@@ -82,8 +91,8 @@ The dataset provides vote-level information linking AFL-CIO scorecards to offici
 
 **Notes.**  
 (i) Variables `aflcio_*` are transcribed from AFL-CIO scorecards.  
-(ii) Vote totals are based on official Clerk counts and may include non-voting delegates, which can generate small discrepancies relative to Voteview aggregates.  
-(iii) Party vote counts are derived from Voteview (`party_vote_counts`; codes: 100 = Democrat, 200 = Republican, others = Independent).  
+(ii) Vote totals are based on official Clerk counts and may include non-voting delegates, generating small discrepancies relative to Voteview aggregates.  
+(iii) Party vote counts come from Voteview (`party_vote_counts`; codes: 100 = Democrat, 200 = Republican, others = Independent).  
 (iv) AFL-CIO positions are encoded as either *Y=Right; N=Wrong* or *Y=Wrong; N=Right*.
 
 **Key identification distinction.**  
@@ -99,11 +108,12 @@ These systems do not coincide.
 
 This repository is intended for **academic and non-commercial use**.
 
-- The **dataset and code** are released for free use, reuse, and replication.  
-- The **AFL-CIO source documents** are reproduced here for research and educational purposes only.  
+- The **dataset and code** are freely available for research, replication, and teaching.  
+- The **AFL-CIO source materials** are included for scholarly use only.
 
-> ⚠️ These materials are derived from AFL-CIO publications. This repository does not claim ownership over those original documents.  
-> They are included in good faith under non-commercial, scholarly use.  
+> ⚠️ **Notice on source materials**  
+> Some documents originate from AFL-CIO publications. This repository does not claim ownership of those materials.  
+> They are reproduced in good faith for non-commercial academic purposes.
 
 If you are a rights holder and would like any material removed, please open an issue.
 
