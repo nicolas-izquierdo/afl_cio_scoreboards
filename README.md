@@ -105,6 +105,5 @@ This repository is intended for **academic and non-commercial use**.
 > Some documents originate from AFL-CIO publications. This repository does not claim ownership of those materials.  
 > They are reproduced in good faith for non-commercial academic purposes.
 
-If you are a rights holder and would like any material removed, please open an issue.
 
 ---
