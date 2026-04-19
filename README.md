@@ -2,7 +2,6 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Coverage-1980--2025-blue">
   <img src="https://img.shields.io/badge/Chamber-House-lightgrey">
-  <img src="https://img.shields.io/badge/Votes-712-informational">
   <img src="https://img.shields.io/badge/Status-Active-success">
   <img src="https://img.shields.io/badge/Use-Academic%20%26%20Non--Commercial-orange">
 </p>
