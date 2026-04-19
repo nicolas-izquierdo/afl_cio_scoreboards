@@ -9,7 +9,7 @@
 
 ---
 
-This repository provides AFL-CIO legislative assessments of lawmaking in the U.S. House between 1980 and 2025. In particular, it provides (1) data on the bills highlighted by the AFL-CIO upon which legislators were assessed as well as (2) R code to score U.S. legislators behavior in these bills.
+This repository provides AFL-CIO **legislative scoreboards** of lawmaking in the U.S. House between 1980 and 2025. In particular, it provides (1) data on the bills highlighted by the AFL-CIO upon which legislators were assessed as well as (2) R code to score U.S. legislators behavior in these bills.
 
 > **Status:** Current coverage includes the U.S. House (1980–2025). Extension to additional years and the Senate is ongoing.
 
