@@ -1,10 +1,6 @@
 # AFL-CIO Legislative Scoreboards
 
 <p align="left">
-  <em>U.S. House legislative evaluations, 1980–2025</em>
-</p>
-
-<p align="left">
   <img src="https://img.shields.io/badge/Coverage-1980--2025-blue">
   <img src="https://img.shields.io/badge/Chamber-House-lightgrey">
   <img src="https://img.shields.io/badge/Status-Active-success">
