@@ -150,7 +150,7 @@ Relevant data are drawn from:
 
 ## Data Structure
 
-The dataset provides vote-level information linking AFL-CIO scorecards to VoteView records.
+The dataset provides bill-level information linking AFL-CIO scorecards to VoteView records.
 
 | Variable | Type | Description |
 |---|---|---|
