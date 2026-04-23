@@ -96,17 +96,6 @@ The dataset provides vote-level information linking AFL-CIO scorecards to VoteVi
 
 ---
 
-## Key Technical Notes
-
-### Scorecard Year vs. Vote Date
-
-The AFL-CIO assigns votes to scorecards by publication cycle, not strictly by calendar year. Some votes in a given year's scorecard occurred in the prior calendar year — most commonly in the 1980–1989 files, where late-session votes from year *N*−1 appear in the year-*N* scorecard.
-
-### 2025 URLs
-
-VoteView ingests roll calls with a variable lag. The `url` values for 2025 are constructed from confirmed VoteView rollnumbers and are theoretically correct, but a small number may not yet resolve on the VoteView website while ingestion is ongoing.
-
----
 
 ## License and Use
 
