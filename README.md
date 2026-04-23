@@ -1,4 +1,23 @@
 # AFL-CIO Legislative Scoreboards
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Coverage-1980--2025-blue">
+  <img src="https://img.shields.io/badge/Chamber-House-lightgrey">
+  <img src="https://img.shields.io/badge/Status-Active-success">
+  <img src="https://img.shields.io/badge/Use-Academic%20%26%20Non--Commercial-orange">
+</p>
+
+<p align="center">
+  <img src="screenshot.png" alt="AFL-CIO Scoreboard Example" width="85%">
+</p>
+
+<p align="center">
+  <em>Example AFL-CIO legislative scoreboard (archival scan)</em>
+</p>
+
+---
+
+# AFL-CIO Legislative Scoreboards
 <p align="left">
   <img src="https://img.shields.io/badge/Coverage-1980--2025-blue">
   <img src="https://img.shields.io/badge/Chamber-House-lightgrey">
