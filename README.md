@@ -24,6 +24,8 @@ For each year, the repository provides a vote-level `.xlsx` dataset and, when av
 |---|---|---|
 | `bills.xlsx` | Complete pooled House dataset for all available AFL-CIO scoreboards, 1980–2025. | [Download](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/bills.xlsx) |
 
+### Yearly dataset
+
 <details open>
 <summary><strong>1980s</strong></summary>
 
