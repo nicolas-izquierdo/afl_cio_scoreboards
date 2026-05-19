@@ -25,10 +25,6 @@ This repository provides AFL-CIO **legislative scoreboards** of the U.S. House b
 
 ## Download
 
-For each year, the repository provides a bill-level `.xlsx` dataset and, when available, the corresponding AFL-CIO scorecard `.pdf`.
-
-### Full dataset
-
 | File | Description | Download |
 |---|---|---|
 | `bills.xlsx` | Complete pooled House dataset for all available AFL-CIO scoreboards, 1980–2025. | [Download](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/bills.xlsx) |
