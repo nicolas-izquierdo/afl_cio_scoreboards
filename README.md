@@ -31,16 +31,6 @@ This repository provides AFL-CIO **legislative scoreboards** of the U.S. House b
 
 ---
 
-## Data Construction
-
-The dataset is constructed in three steps:
-
-1. AFL-CIO legislative scorecards are collected and transcribed using Claude Code  
-2. Each vote is matched to its corresponding VoteView roll call  
-3. Roll call metadata are retrieved from VoteView  
-
----
-
 ## Sources
 
 Relevant data are drawn from:
@@ -49,19 +39,6 @@ Relevant data are drawn from:
 - 📰 Historical issues of *AFL-CIO News* available at the [Internet Archive AFL-CIO News collection](https://archive.org/search?query=creator%3A%22AFL-CIO%22+%22news%22)  
 - 🗳️ [Clerk of the House](https://clerk.house.gov)  
 - 📊 [VoteView](https://voteview.com)  
-
----
-
-## Coverage
-
-| Period | Congresses | Files | Votes |
-|---|---|---|---|
-| 1980–1989 | H096–H101 | 10 | 157 |
-| 1990–1999 | H101–H106 | 10 | 107 |
-| 2000–2009 | H106–H111 | 10 | 140 |
-| 2010–2019 | H111–H116 | 10 | 178 |
-| 2020–2025 | H116–H119 | 6 | 130 |
-| **Total** | **H096–H119** | **46** | **712** |
 
 ---
 
