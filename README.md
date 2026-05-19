@@ -41,9 +41,7 @@ For each year, the repository provides a bill-level `.xlsx` dataset and, when av
 | Year | Dataset | Scorecard |
 |---|---|---|
 | 1980 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1980/aflcio_house_votes_1980.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1980/scoreboard_1980.pdf) |
-
 | 1981 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1981/aflcio_house_votes_1981.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1981/scoreboard_1981.pdf) |
-
 | 1982 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1982/aflcio_house_votes_1982.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1982/scoreboard_1982.pdf) |
 | 1983 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1983/aflcio_house_votes_1983.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1983/scoreboard_1983.pdf) |
 | 1984 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1984/aflcio_house_votes_1984.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1984/scoreboard_1984.pdf) |
