@@ -33,26 +33,6 @@ For each year, the repository provides a bill-level `.xlsx` dataset and, when av
 |---|---|---|
 | `bills.xlsx` | Complete pooled House dataset for all available AFL-CIO scoreboards, 1980–2025. | [Download](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/bills.xlsx) |
 
-### Yearly dataset
-
-<details open>
-<summary><strong>1980s</strong></summary>
-
-| Year | Dataset | Scorecard |
-|---|---|---|
-| 1980 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1980/aflcio_house_votes_1980.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1980/scoreboard_1980.pdf) |
-| 1981 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1981/aflcio_house_votes_1981.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1981/scoreboard_1981.pdf) |
-| 1982 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1982/aflcio_house_votes_1982.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1982/scoreboard_1982.pdf) |
-| 1983 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1983/aflcio_house_votes_1983.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1983/scoreboard_1983.pdf) |
-| 1984 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1984/aflcio_house_votes_1984.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1984/scoreboard_1984.pdf) |
-| 1985 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1985/aflcio_house_votes_1985.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1985/scoreboard_1985.pdf) |
-| 1986 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1986/aflcio_house_votes_1986.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1986/scoreboard_1986.pdf) |
-| 1987 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1987/aflcio_house_votes_1987.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1987/scoreboard_1987.pdf) |
-| 1988 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1988/aflcio_house_votes_1988.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1988/scoreboard_1988.pdf) |
-| 1989 | [XLSX](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1989/aflcio_house_votes_1989.xlsx) | [PDF](https://raw.githubusercontent.com/nicolas-izquierdo/afl_cio_scoreboards/main/HOUSE/1989/scoreboard_1989.pdf) |
-
-</details>
-
 ---
 
 ## Data Construction
